@@ -6,8 +6,8 @@ html{
     --light: rgb(0, 0, 0);
     --color-text: whitesmoke;
     --box-shadow: 
-    5px 5px 15px rgb(167, 18, 231), 
-    -5px -5px 15px white;
+    5px 5px 10px rgb(167, 18, 231), 
+    -5px -5px 10px white;
     --gradient-bg: linear-gradient(-45deg, #a200ff, #ffffff);
 }
 a{
@@ -130,10 +130,10 @@ header ul li{
 .banner .avatar::before{
     position: absolute;
     width: 90%;
-    height: 80%;
+    height: 90%;
     content: '';
     z-index: -1;
-    bottom: 0;
+    top: 0.05%;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }

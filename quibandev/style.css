@@ -197,6 +197,18 @@ body{
 .work .workbox .desc p{
     margin:0px;
 }
+/* FOOTER */
+
+  footer {
+    padding-bottom: 15px;
+  }
+    footer p {
+    text-align: center;
+    margin-top: 20px; /* Space above the copyright text */
+    font-size: 12px; /* Smaller font size for copyright */
+    color: black; /* Change color to gray for distinction */
+  }
+
 /***Responsive Design ***/
 @media(max-width:768px)
 {
